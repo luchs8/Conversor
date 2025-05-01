@@ -24,7 +24,7 @@ body {
 
 main {
 
-    width: 90%;
+    width: 375px;
     background: #F4F4F4;
     border-radius: 20px;
     margin: 0 auto 40px;
@@ -106,10 +106,54 @@ section {
     font-size: 14px;
 }
 
-.currency-value,.currency-value-to-covert {
+.currency-value,
+.currency-value-to-covert {
     color: #555555;
     font-weight: 700;
     font-size: 20px;
 
 
+}
+
+@media screen and (max-width: 768px) {
+    .logo {
+        width: 200px;
+    }
+
+    main {
+        width: 90%;
+        padding: 20px;
+    }
+
+    label {
+        font-size: 12px;
+    }
+
+    select,
+    input {
+        font-size: 14px;
+        height: 40px;
+    }
+
+    button {
+        font-size: 16px;
+        height: 40px;
+    }
+
+    .arrow-img {
+        width: 50px;
+    }
+
+    .currency-box {
+        gap: 2px;
+    }
+
+    .currency {
+        font-size: 12px;
+    }
+
+    .currency-value,
+    .currency-value-to-convert {
+        font-size: 16px;
+    }
 }
